@@ -485,4 +485,47 @@ a:hover {
     box-shadow: 0 4px 20px rgba(0,0,0,0.05);
 }
 
+.testimonials {
+    background-color: #f8f8f8;
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.testimonial {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    font-style: italic;
+    position: relative;
+}
+
+.testimonial p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.testimonial span {
+    display: block;
+    font-size: 0.9rem;
+    color: #666;
+    font-weight: bold;
+}
+
 

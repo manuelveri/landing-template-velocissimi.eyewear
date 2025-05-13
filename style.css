@@ -6,7 +6,7 @@ html {
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-image: url('https://i.imgur.com/CHRSgPv.jpeg');
+  background-image: url('images/bg-geometrico-2.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -246,13 +246,13 @@ a:hover {
 }
 
 .logo:hover {
-  color: #9f93dd;
+  color: #6b53e3;
 }
 
 .main-nav a {
   margin-left: 1.5rem;
   text-decoration: none;
-  color: #b3acdf;
+  color: #ffffff;
   font-weight: 500;
   transition: color 0.3s ease;
 }
